@@ -1,7 +1,13 @@
 ## Data Analysis (27 questions)
 
-#### 1. (Given a Dataset) Analyze this dataset and tell me what you can learn from it.
-#### 2. What is R2? What are some other metrics that could be better than R2 and why?
+#### 1. (Given a Dataset) Analyze this dataset and tell me what you can learn from it.  
+Key points:
++ what kind of data (time series? tabular data? relational data?)
++ where does the data come from and what's the purpose of analyzing the data
++ what are the variables (features) and labels
++ Is there potential noise in the dataset?
++ Explore and generate more features from the dataset
+#### 2. What is R^2? What are some other metrics that could be better than R^2 and why?
   - goodness of fit measure. variance explained by the regression / total variance
   - the more predictors you add the higher R^2 becomes.
     - hence use adjusted R^2 which adjusts for the degrees of freedom 
